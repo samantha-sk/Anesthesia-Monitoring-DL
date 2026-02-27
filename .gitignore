@@ -1,0 +1,22 @@
+# Python bytecode/cache
+__pycache__/
+*.py[cod]=
+.venv/
+venv/
+
+# Data + large artifacts
+*.pth
+*.pt
+*.ckpt
+*.onnx
+data/
+references/
+
+# Generated results/plots
+*.json
+*.md
+
+
+# OS noise
+.DS_Store
+Thumbs.db
